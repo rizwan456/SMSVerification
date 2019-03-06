@@ -121,12 +121,12 @@ public class MainActivity extends AppCompatActivity implements GetMessage {
         handler.post(new Runnable() {
             @Override
             public void run() {
-                mainActivityBinding.arg0.setText(""+arg[2].charAt(0));
-                mainActivityBinding.arg1.setText(""+arg[2].charAt(1));
-                mainActivityBinding.arg2.setText(""+arg[2].charAt(2));
-                mainActivityBinding.arg3.setText(""+arg[2].charAt(3));
-                mainActivityBinding.arg4.setText(""+arg[2].charAt(4));
-                mainActivityBinding.arg5.setText(""+arg[2].charAt(5));
+                mainActivityBinding.arg0.setText("" + arg[2].charAt(0));
+                mainActivityBinding.arg1.setText("" + arg[2].charAt(1));
+                mainActivityBinding.arg2.setText("" + arg[2].charAt(2));
+                mainActivityBinding.arg3.setText("" + arg[2].charAt(3));
+                mainActivityBinding.arg4.setText("" + arg[2].charAt(4));
+                mainActivityBinding.arg5.setText("" + arg[2].charAt(5));
             }
         });
 

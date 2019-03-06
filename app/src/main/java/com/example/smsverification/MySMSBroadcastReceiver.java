@@ -12,7 +12,7 @@ import com.google.android.gms.common.api.Status;
 public class MySMSBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        if(SmsRetriever.SMS_RETRIEVED_ACTION.equals(intent.getAction())){
+        if (SmsRetriever.SMS_RETRIEVED_ACTION.equals(intent.getAction())) {
             Bundle extras = intent.getExtras();
             Status status = (Status) extras.get(SmsRetriever.EXTRA_STATUS);
             switch (status.getStatusCode()) {
@@ -21,10 +21,9 @@ public class MySMSBroadcastReceiver extends BroadcastReceiver {
                     String message = (String) extras.get(SmsRetriever.EXTRA_SMS_MESSAGE);
                     // Extract one-time code from the message and complete verification by
                     // sending the code back to your server for SMS authenticity.
-                    if(MainActivity.getMessage == null){
+                    if (MainActivity.getMessage == null) {
                         return;
-                    }else
-                    {
+                    } else {
                         MainActivity.getMessage.myMessage(message);
                     }
                     break;

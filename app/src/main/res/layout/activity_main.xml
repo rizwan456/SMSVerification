@@ -67,141 +67,152 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="160dp"
             android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
             android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
-                android:orientation="vertical"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:id="@+id/arg0"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp" />
+
                 <View
-                    android:layout_gravity="center"
-                    android:background="#000"
                     android:layout_width="20dp"
-                    android:layout_height="2dp"/>
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000" />
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
-                android:orientation="vertical"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:id="@+id/arg1"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp" />
+
                 <View
-                    android:layout_gravity="center"
-                    android:background="#000"
                     android:layout_width="20dp"
-                    android:layout_height="2dp"/>
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000" />
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
-                android:orientation="vertical"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:id="@+id/arg2"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp" />
+
                 <View
-                    android:layout_gravity="center"
-                    android:background="#000"
                     android:layout_width="20dp"
-                    android:layout_height="2dp"/>
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000" />
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
-                android:orientation="vertical"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:id="@+id/arg3"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp" />
+
                 <View
-                    android:layout_gravity="center"
-                    android:background="#000"
                     android:layout_width="20dp"
-                    android:layout_height="2dp"/>
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000" />
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
-                android:orientation="vertical"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:id="@+id/arg4"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp" />
+
                 <View
-                    android:layout_gravity="center"
-                    android:background="#000"
                     android:layout_width="20dp"
-                    android:layout_height="2dp"/>
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000" />
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
-                android:orientation="vertical"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
                     android:id="@+id/arg5"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp" />
+
                 <View
-                    android:layout_gravity="center"
-                    android:background="#000"
                     android:layout_width="20dp"
-                    android:layout_height="2dp"/>
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000" />
 
             </LinearLayout>
 
